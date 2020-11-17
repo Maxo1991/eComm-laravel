@@ -16,9 +16,9 @@
                 <li class="active"><a href="#">Home</a></li>
                 <li><a href="#">Order</a></li>
             </ul>
-            <form class="navbar-form navbar-left">
+            <form action="search" class="navbar-form navbar-left">
                 <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search">
+                    <input type="text" name="query" class="form-control search-box" placeholder="Search">
                 </div>
                 <button type="submit" class="btn btn-default">Submit</button>
             </form>
