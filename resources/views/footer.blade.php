@@ -1,8 +1,6 @@
-<div class="card text-center">
-    <div class="card-header">
-        Featured
+<div style="clear: both; margin-top: 30px;" class="panel panel-default">
+    <div class="panel-body">
+        Panel content
     </div>
-    <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-    </div>
+    <div class="panel-footer">Panel footer</div>
 </div>
