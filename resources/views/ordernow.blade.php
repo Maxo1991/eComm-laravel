@@ -22,9 +22,10 @@
                 </tr>
                 </tbody>
             </table>
-            <form action="/action_page.php">
+            <form action="/orderplace" method="POST">
+                @csrf
                 <div class="form-group">
-                    <textarea class="form-control" placeholder="Enter your address"></textarea>
+                    <textarea class="form-control" name="address" placeholder="Enter your address"></textarea>
                 </div>
                 <button type="submit" class="btn btn-default">Submit</button>
             </form>
